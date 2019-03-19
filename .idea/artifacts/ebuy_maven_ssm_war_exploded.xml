@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ebuy_maven_ssm:war exploded">
+    <output-path>$PROJECT_DIR$/target/ebuy_maven_ssm</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ebuy_maven_ssm" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ebuy_maven_ssm/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ebuy_maven_ssm/web/Web" />
+    </root>
+  </artifact>
+</component>
